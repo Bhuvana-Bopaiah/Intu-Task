@@ -1,0 +1,333 @@
+
+
+.home_body{
+	background-color:#171941;
+	font-family: 'Poppins', sans-serif;	
+	background: linear-gradient(90deg, #171941 24px, transparent 1%) center, linear-gradient(#171941 24px, transparent 1%) center, #3a3c67;
+  background-size: 26px 26px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding: 1.5rem !important;
+}
+
+.buy_now {
+	color: #fff;
+	font-size: 14px;
+	background-image: linear-gradient(to right, #344675 0%, #263148 51%, #263148 100%);
+	border-radius: 6px;
+    border: none;
+    padding: 0.575rem 0.75rem;
+}
+
+.body_content{
+	color: #fff;
+}
+.body_content p:first-child{
+	font-size: 33px;
+}
+.body_content p:second-child{
+	font-size: 14px;
+}
+.body_content span{
+	font-size: 12px;
+	color: #00F2C3;
+}
+.section_alignment{
+	margin-top: 140px;
+}
+.achivements_box{
+	width: 222px;
+    height: 74px;
+    background-color: #1F2251;
+    border-radius: 7px;
+}
+.achivements_box p{
+	font-size: 20px;
+	color: #fff;
+}
+.achivements_box span{
+	font-size: 10px;
+	color: #9A9A9A;
+}
+.achivements_box:hover {
+	background-color: #344675;
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.benifits_section {
+  font-size: 33px;
+  color: #fff;
+}
+
+.benefit_grid_p{
+  font-size: 17px;
+ color: #fff;
+}
+.hr{
+    width: 26px;
+    border-top: 1px solid #E14ECA;
+}
+.hr_2{
+   width: 26px;
+    border-top: 1px solid #FF8D72;
+}
+.hr_3{
+   width: 26px;
+    border-top: 1px solid #00F2C3;
+}
+.benefit_grid_p2{
+  font-size: 15px;
+ color: #9A9A9A;
+}
+.feature_hr{
+	width: 26px;
+    border-top: 1px solid #00F2C3;
+    position: absolute;
+    top: -27px;
+}
+.feature_content_1{
+  font-size: 23px;
+  color: #fff;
+}
+.feature_content_2{
+  font-size: 14px;
+  color: #fff;
+}
+.feature_content_3{
+  font-size: 12px;
+  color: #fff;
+}
+.safe{
+	width: 104px;
+    height: 74px;
+    background-color: #FD5D93;
+    position: absolute;
+    left: 148px;
+    top: -12px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    text-align: center;	
+}
+.satisfied{
+    width: 150px;
+    height: 74px;
+    background-color: #1D8CF8;
+    position: absolute;
+    left: -45px;
+    bottom: -12px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    text-align: center;
+}
+.business{
+   width: 104px;
+    height: 74px;
+    background-color: #344675;
+    position: absolute;
+    left: 277px;
+    top: 229px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    text-align: center;
+}
+.safe_p{
+	font-size: 28px;
+   color: #fff;
+}
+.safe_span{
+	font-size:14px;
+    color: #fff;
+}
+
+.top_line{
+	width: 26px;
+    border-top: 1px solid #1D8CF8;;
+    position: absolute;
+    top: -27px;
+}
+.top_content{
+	font-size: 32px;
+	color: #fff;
+}
+
+
+.cards
+{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  position: relative;
+  height:21.875rem;
+  width:100%;
+}
+
+.card
+{
+  display:flex;
+ width: 30.8125rem;
+    height: 31.25rem;
+  border-radius:0.5rem;
+  transform-origin:center center;
+  transform:scale(1) translate(0px,0px) perspective( 750px ) rotateY(0deg);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-duration: 0.5s;
+  position:absolute;
+  top:0;
+  box-shadow:0 30px 50px rgba(0,0,0,0.1);
+  z-index:3;
+  cursor: pointer;
+  overflow:hidden;
+  border:none;
+  background-color: #1F2251;
+
+}
+
+.card *
+{
+  pointer-events: none;
+}
+
+.card--left
+{
+  transform:scale(0.75) translate(-335px,0px) perspective( 750px ) rotateY(10deg);
+  box-shadow:0 15px 25px rgba(0,0,0,0.1);
+  z-index:1;
+}
+
+.card--center
+{
+  transform:scale(1) translate(0px, 0px) perspective( 750px ) rotateY(0deg);
+  box-shadow:0 30px 50px rgba(0,0,0,0.1);
+  z-index:3;
+}
+
+.card--right
+{
+  transform:scale(0.75) translate(335px,0px) perspective( 750px ) rotateY(-10deg);
+  box-shadow:0 15px 25px rgba(0,0,0,0.1);
+  z-index:1;
+}
+
+
+
+@media only screen and (max-width : 736px)
+{
+  .cards
+  {
+    flex-direction:column;
+    margin:auto 0;
+  }
+
+  .card
+  {
+    display:flex;
+    width:90%;
+  }
+
+  .card--left
+  {
+    transform:scale(0.75) translate(0px, -150px) perspective(750px) rotateY(0) rotateX(-10deg) translateZ(-5px);
+  }
+
+  .card--center
+  {
+    transform:scale(1) translate(0px, 0px) perspective( 750px ) rotateY(0deg)  rotateX(0deg) translateZ(5px);
+  }
+
+  .card--right
+  {
+    transform:scale(0.75) translate(0px, 150px) perspective(750px) rotateY(0) rotateX(10deg) translateZ(-5px);
+  }
+
+  .card__icon:before
+  {
+    transform:scale(0.75);
+  }
+}
+.car_bg{
+	background-image: url("../assets/Profile bg Image.svg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 230px; 
+}
+.profile_img{
+	width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 147px;
+    left: 182px;
+    border: 2px solid #fff;
+   
+}
+.card_content{
+    position: absolute;
+    top: 297px;
+    color: #fff;
+}
+.card_content_maid{
+	font-size: 23px;
+}
+.card_content_span{
+	font-size: 12px;
+	color: #E14ECA;
+}
+.card_content_para{
+	font-size: 14px;
+	
+}
+.social_media{
+	position: absolute;
+    bottom: -28px;
+    width: 100%;
+    padding: 18px;
+}
+.follow {
+	color: #fff;
+	font-size: 14px;
+	background-image: linear-gradient(360deg, #BA54F5 0%, #E14ECA 100%);
+	border-radius: 6px;
+    border: none;
+    padding: 0.575rem 0.75rem;
+}
+
+.hr_per{
+	    width: 102px;
+    border-top: 2px solid #1D8CF8;
+    position: absolute;
+    
+}
+.total{
+	font-size: 12px;
+    color: #fff;
+    position: absolute;
+}
+.Performance{
+	font-size: 26px;
+    color: #fff;
+    position: absolute;
+}
+.page-footer ul li a{
+   font-size: 12px;
+   color:#fff;
+}
+.footer_hr{
+	margin-top: 250px!important;
+    border: 1px solid #435DB5;
+}
+
+.bg_blob_1{
+	background-image: url("../assets/Blob1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;  
+    
+}
+.blob_2{
+	background-image: url("../assets/blob_2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px; 
+}
